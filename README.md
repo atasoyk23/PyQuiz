@@ -13,6 +13,10 @@
     ```bash
     pip install -r requirements.txt
     ```
+5. Make sure to use correct directory:
+    ```bash
+    cd PyQuiz
+    ```
 4. Run the main script:
     ```bash
     python main.py
