@@ -45,6 +45,7 @@
 
 ## Notes
 
-- Answer options must be A/B/C/D.
+- Answer options must be A / B / C / D.
 - Visual graphs require a graphical environment to display.
 - All progress is saved locally in JSON files.
+- Inputs are not case sensitive.
