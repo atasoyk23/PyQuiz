@@ -1,0 +1,10 @@
+What will this code output?
+
+print(bool("False"))
+
+A) True
+B) False
+C) 0
+D) Error
+
+Answer: A

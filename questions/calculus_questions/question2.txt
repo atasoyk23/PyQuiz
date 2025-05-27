@@ -1,0 +1,8 @@
+Evaluate the limit: lim(x → 0) (sin(x) / x)
+
+A) 0
+B) 1
+C) Infinity
+D) Undefined
+
+Answer: B

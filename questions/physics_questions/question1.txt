@@ -1,0 +1,8 @@
+What is the SI unit of electric field strength?
+
+A) Newton  
+B) Volt/meter  
+C) Coulomb  
+D) Joule  
+
+Answer: B

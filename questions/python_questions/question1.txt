@@ -1,0 +1,9 @@
+What is the output of the following code?
+print(type((1, 2, 3)))
+
+A) <class 'list'>
+B) <class 'dict'>
+C) <class 'tuple'>
+D) <class 'set'>
+
+Answer: C

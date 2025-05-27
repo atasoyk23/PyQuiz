@@ -1,0 +1,26 @@
+{
+    "username": "testuser2",
+    "quizzes": [
+        {
+            "timestamp": "2025-05-26 20:48:15",
+            "category": "Python",
+            "score": 2,
+            "total_questions": 10,
+            "spent_time": 7.1320273876190186
+        },
+        {
+            "timestamp": "2025-05-26 20:56:07",
+            "category": "Calculus",
+            "score": 10,
+            "total_questions": 10,
+            "spent_time": 17.744007110595703
+        },
+        {
+            "timestamp": "2025-05-26 20:57:38",
+            "category": "Python",
+            "score": 3,
+            "total_questions": 10,
+            "spent_time": 2.91694712638855
+        }
+    ]
+}

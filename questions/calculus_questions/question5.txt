@@ -1,0 +1,8 @@
+Let f(x) = ln(x), then what is f'(x) = ?
+
+A) 1/x
+B) x
+C) ln(x)
+D) e^x
+
+Answer: A

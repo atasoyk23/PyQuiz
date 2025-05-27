@@ -1,0 +1,12 @@
+What will be the output of the following code?
+
+my_dict = {"a": 1, "b": 2}
+my_dict["c"] = 3
+print(len(my_dict))
+
+A) Error
+B) 1
+C) 2
+D) 3
+
+Answer: D

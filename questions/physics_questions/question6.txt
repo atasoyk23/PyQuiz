@@ -1,0 +1,8 @@
+The work done in moving a charge in an electric field is called:
+
+A) Voltage  
+B) Resistance  
+C) Capacitance  
+D) Electric potential energy  
+
+Answer: D

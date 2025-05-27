@@ -1,0 +1,8 @@
+What is the derivative of f(x) = x^3?
+
+A) 3x^2
+B) x^2
+C) 3x^3
+D) x^3 + 1
+
+Answer: A

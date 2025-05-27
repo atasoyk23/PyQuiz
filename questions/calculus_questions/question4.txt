@@ -1,0 +1,8 @@
+Let f(x) = e^x, then what is f'(x) = ?
+
+A) e
+B) 1
+C) e^x
+D) ln(x)
+
+Answer: C

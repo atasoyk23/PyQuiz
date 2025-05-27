@@ -1,0 +1,8 @@
+Let f(x) = cos(x), then what is f'(x) = ?
+
+A) sin(x)
+B) cos(x)
+C) −cos(x)
+D) −sin(x)
+
+Answer: D

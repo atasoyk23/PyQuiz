@@ -1,0 +1,8 @@
+Which of the following is an indeterminate form?
+
+A) 1/0
+B) ∞/∞
+C) ∞ − ∞
+D) Both B and C
+
+Answer: D

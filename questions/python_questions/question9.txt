@@ -1,0 +1,8 @@
+What is the purpose of the 'with open(...) as file:' statement?
+
+A) It creates a new file
+B) It reads the entire file into memory
+C) It ensures the file is properly closed after access
+D) It saves memory by writing byte-by-byte
+
+Answer: C

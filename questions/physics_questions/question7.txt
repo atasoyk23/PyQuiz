@@ -1,0 +1,8 @@
+Kirchhoff’s first law is based on the conservation of:
+
+A) Mass  
+B) Energy  
+C) Charge  
+D) Momentum  
+
+Answer: C

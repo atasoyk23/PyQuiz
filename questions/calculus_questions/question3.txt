@@ -1,0 +1,8 @@
+Which rule is used to differentiate a product of two functions?
+
+A) Quotient Rule
+B) Chain Rule
+C) Product Rule
+D) Power Rule
+
+Answer: C

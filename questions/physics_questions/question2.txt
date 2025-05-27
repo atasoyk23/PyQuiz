@@ -1,0 +1,8 @@
+Which of the following laws explains the relationship between voltage, current, and resistance?
+
+A) Newton's Second Law  
+B) Coulomb's Law  
+C) Ohm's Law  
+D) Ampere's Law  
+
+Answer: C

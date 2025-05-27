@@ -1,0 +1,8 @@
+When multiple forces act on a body simultaneously, the net force is determined by:
+
+A) Vector addition of all forces  
+B) Subtracting the smallest from the largest  
+C) Adding only the magnitudes
+D) Taking the average of all forces  
+
+Answer: A

@@ -1,0 +1,8 @@
+If f(x) = x^2 + 3x + 2, then what is f'(x) = ?
+
+A) x + 3
+B) 2x + 3
+C) 2x
+D) x^2 + 3
+
+Answer: B

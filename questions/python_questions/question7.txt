@@ -1,0 +1,9 @@
+What is the output of the following code?
+print(4 == 4.0)
+
+A) True
+B) False
+C) Error
+D) None
+
+Answer: A

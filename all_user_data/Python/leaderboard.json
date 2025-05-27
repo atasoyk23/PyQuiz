@@ -1,0 +1,282 @@
+[
+    {
+        "username": "testuser",
+        "quizzes": {
+            "timestamp": "2025-05-24 14:06:47",
+            "category": "Python",
+            "score": 10,
+            "total_questions": 10,
+            "spent_time": 8.8716299533844
+        }
+    },
+    {
+        "username": "asuman",
+        "quizzes": {
+            "timestamp": "2025-05-24 14:01:48",
+            "category": "Python",
+            "score": 10,
+            "total_questions": 10,
+            "spent_time": 11.696967124938965
+        }
+    },
+    {
+        "username": "kivanc",
+        "quizzes": {
+            "timestamp": "2025-05-26 20:36:40",
+            "category": "Python",
+            "score": 10,
+            "total_questions": 10,
+            "spent_time": 16.42828631401062
+        }
+    },
+    {
+        "username": "kivanc",
+        "quizzes": {
+            "timestamp": "2025-05-24 13:28:35",
+            "category": "Python",
+            "score": 10,
+            "total_questions": 10,
+            "spent_time": 17.123419761657715
+        }
+    },
+    {
+        "username": "kivanc",
+        "quizzes": {
+            "timestamp": "2025-05-25 12:53:58",
+            "category": "Python",
+            "score": 10,
+            "total_questions": 10,
+            "spent_time": 17.664931774139404
+        }
+    },
+    {
+        "username": "nisa",
+        "quizzes": {
+            "timestamp": "2025-05-24 13:18:02",
+            "category": "Python",
+            "score": 10,
+            "total_questions": 10,
+            "spent_time": 26.451069831848145
+        }
+    },
+    {
+        "username": "nisa",
+        "quizzes": {
+            "timestamp": "2025-05-24 13:56:36",
+            "category": "Python",
+            "score": 9,
+            "total_questions": 10,
+            "spent_time": 12.03294038772583
+        }
+    },
+    {
+        "username": "nisa",
+        "quizzes": {
+            "timestamp": "2025-05-24 13:55:56",
+            "category": "Python",
+            "score": 9,
+            "total_questions": 10,
+            "spent_time": 20.260231018066406
+        }
+    },
+    {
+        "username": "ahmet",
+        "quizzes": {
+            "timestamp": "2025-05-24 13:27:57",
+            "category": "Python",
+            "score": 9,
+            "total_questions": 10,
+            "spent_time": 20.53152346611023
+        }
+    },
+    {
+        "username": "testuser",
+        "quizzes": {
+            "timestamp": "2025-05-24 14:05:38",
+            "category": "Python",
+            "score": 8,
+            "total_questions": 10,
+            "spent_time": 8.290746450424194
+        }
+    },
+    {
+        "username": "testuser",
+        "quizzes": {
+            "timestamp": "2025-05-24 14:04:41",
+            "category": "Python",
+            "score": 8,
+            "total_questions": 10,
+            "spent_time": 11.786319017410278
+        }
+    },
+    {
+        "username": "ozum",
+        "quizzes": {
+            "timestamp": "2025-05-24 13:20:39",
+            "category": "Python",
+            "score": 7,
+            "total_questions": 10,
+            "spent_time": 14.475072860717773
+        }
+    },
+    {
+        "username": "kivanc",
+        "quizzes": {
+            "timestamp": "2025-05-27 14:27:37",
+            "category": "Python",
+            "score": 5,
+            "total_questions": 10,
+            "spent_time": 65.81666970252991
+        }
+    },
+    {
+        "username": "help",
+        "quizzes": {
+            "timestamp": "2025-05-27 15:11:05",
+            "category": "Python",
+            "score": 4,
+            "total_questions": 10,
+            "spent_time": 5.354213237762451
+        }
+    },
+    {
+        "username": "kivanc",
+        "quizzes": {
+            "timestamp": "2025-05-25 12:45:14",
+            "category": "Python",
+            "score": 4,
+            "total_questions": 10,
+            "spent_time": 6.767880439758301
+        }
+    },
+    {
+        "username": "kivanc",
+        "quizzes": {
+            "timestamp": "2025-05-26 20:55:10",
+            "category": "Python",
+            "score": 4,
+            "total_questions": 10,
+            "spent_time": 6.945058345794678
+        }
+    },
+    {
+        "username": "kivanc",
+        "quizzes": {
+            "timestamp": "2025-05-24 13:52:01",
+            "category": "Python",
+            "score": 4,
+            "total_questions": 10,
+            "spent_time": 9.430099725723267
+        }
+    },
+    {
+        "username": "asuman",
+        "quizzes": {
+            "timestamp": "2025-05-24 14:04:05",
+            "category": "Python",
+            "score": 4,
+            "total_questions": 10,
+            "spent_time": 12.352639198303223
+        }
+    },
+    {
+        "username": "kivanc",
+        "quizzes": {
+            "timestamp": "2025-05-24 13:47:57",
+            "category": "Python",
+            "score": 3,
+            "total_questions": 10,
+            "spent_time": 2.0625879764556885
+        }
+    },
+    {
+        "username": "testuser2",
+        "quizzes": {
+            "timestamp": "2025-05-26 20:57:38",
+            "category": "Python",
+            "score": 3,
+            "total_questions": 10,
+            "spent_time": 2.91694712638855
+        }
+    },
+    {
+        "username": "kivanc",
+        "quizzes": {
+            "timestamp": "2025-05-24 13:49:24",
+            "category": "Python",
+            "score": 3,
+            "total_questions": 10,
+            "spent_time": 3.295485496520996
+        }
+    },
+    {
+        "username": "kivanc",
+        "quizzes": {
+            "timestamp": "2025-05-24 13:36:33",
+            "category": "Python",
+            "score": 3,
+            "total_questions": 10,
+            "spent_time": 3.3596179485321045
+        }
+    },
+    {
+        "username": "testuser",
+        "quizzes": {
+            "timestamp": "2025-05-24 14:06:09",
+            "category": "Python",
+            "score": 3,
+            "total_questions": 10,
+            "spent_time": 3.651444911956787
+        }
+    },
+    {
+        "username": "kivanc",
+        "quizzes": {
+            "timestamp": "2025-05-24 13:40:25",
+            "category": "Python",
+            "score": 3,
+            "total_questions": 10,
+            "spent_time": 4.047762155532837
+        }
+    },
+    {
+        "username": "kivanc",
+        "quizzes": {
+            "timestamp": "2025-05-24 13:50:55",
+            "category": "Python",
+            "score": 3,
+            "total_questions": 10,
+            "spent_time": 4.726449728012085
+        }
+    },
+    {
+        "username": "kivanc",
+        "quizzes": {
+            "timestamp": "2025-05-24 13:35:16",
+            "category": "Python",
+            "score": 3,
+            "total_questions": 10,
+            "spent_time": 4.950348854064941
+        }
+    },
+    {
+        "username": "kivanc",
+        "quizzes": {
+            "timestamp": "2025-05-24 13:10:57",
+            "category": "Python",
+            "score": 3,
+            "total_questions": 10,
+            "spent_time": 5.300101041793823
+        }
+    },
+    {
+        "username": "testuser2",
+        "quizzes": {
+            "timestamp": "2025-05-26 20:48:15",
+            "category": "Python",
+            "score": 2,
+            "total_questions": 10,
+            "spent_time": 7.1320273876190186
+        }
+    }
+]

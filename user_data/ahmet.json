@@ -1,0 +1,12 @@
+{
+    "username": "ahmet",
+    "quizzes": [
+        {
+            "timestamp": "2025-05-24 13:27:57",
+            "category": "Python",
+            "score": 9,
+            "total_questions": 10,
+            "spent_time": 20.53152346611023
+        }
+    ]
+}

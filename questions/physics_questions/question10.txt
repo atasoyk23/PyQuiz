@@ -1,0 +1,8 @@
+An object is dropped from a certain height. Ignoring air resistance, what remains constant during its fall?
+
+A) Kinetic energy  
+B) Potential energy  
+C) Total mechanical energy  
+D) Velocity  
+
+Answer: C

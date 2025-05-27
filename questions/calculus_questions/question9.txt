@@ -1,0 +1,8 @@
+Which of the following represents the area under a curve from a to b?
+
+A) f'(x), x = (a + b)
+B) from a to b of ∫f(x).dx
+C) f(x)^2, x = b - a
+D) from b to a of ∫f(x).dx
+
+Answer: B

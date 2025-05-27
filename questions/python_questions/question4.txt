@@ -1,0 +1,8 @@
+Which of the following is a mutable data type in Python?
+
+A) list
+B) tuple
+C) int
+D) str
+
+Answer: A

@@ -1,0 +1,8 @@
+In a simple harmonic oscillator, the total mechanical energy is:
+
+A) Constant  
+B) Increasing  
+C) Decreasing  
+D) Zero  
+
+Answer: A

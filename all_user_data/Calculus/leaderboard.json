@@ -1,0 +1,72 @@
+[
+    {
+        "username": "kivanc",
+        "quizzes": {
+            "timestamp": "2025-05-25 12:46:02",
+            "category": "Calculus",
+            "score": 10,
+            "total_questions": 10,
+            "spent_time": 15.6358642578125
+        }
+    },
+    {
+        "username": "nisa",
+        "quizzes": {
+            "timestamp": "2025-05-25 11:28:20",
+            "category": "Calculus",
+            "score": 10,
+            "total_questions": 10,
+            "spent_time": 17.078562259674072
+        }
+    },
+    {
+        "username": "kivanc",
+        "quizzes": {
+            "timestamp": "2025-05-27 18:58:30",
+            "category": "Calculus",
+            "score": 10,
+            "total_questions": 10,
+            "spent_time": 17.61482858657837
+        }
+    },
+    {
+        "username": "testuser2",
+        "quizzes": {
+            "timestamp": "2025-05-26 20:56:07",
+            "category": "Calculus",
+            "score": 10,
+            "total_questions": 10,
+            "spent_time": 17.744007110595703
+        }
+    },
+    {
+        "username": "kivanc",
+        "quizzes": {
+            "timestamp": "2025-05-25 12:42:10",
+            "category": "Calculus",
+            "score": 10,
+            "total_questions": 10,
+            "spent_time": 18.18949007987976
+        }
+    },
+    {
+        "username": "kivanc",
+        "quizzes": {
+            "timestamp": "2025-05-24 14:10:29",
+            "category": "Calculus",
+            "score": 9,
+            "total_questions": 10,
+            "spent_time": 32.18730568885803
+        }
+    },
+    {
+        "username": "nisa",
+        "quizzes": {
+            "timestamp": "2025-05-25 11:26:48",
+            "category": "Calculus",
+            "score": 9,
+            "total_questions": 10,
+            "spent_time": 59.06262016296387
+        }
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "username": "asuman",
+    "quizzes": [
+        {
+            "timestamp": "2025-05-24 14:01:48",
+            "category": "Python",
+            "score": 10,
+            "total_questions": 10,
+            "spent_time": 11.696967124938965
+        },
+        {
+            "timestamp": "2025-05-24 14:04:05",
+            "category": "Python",
+            "score": 4,
+            "total_questions": 10,
+            "spent_time": 12.352639198303223
+        }
+    ]
+}

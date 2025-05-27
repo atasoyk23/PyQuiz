@@ -1,0 +1,19 @@
+{
+    "username": "kivanc",
+    "quizzes": [
+        {
+            "timestamp": "2025-05-27 14:27:37",
+            "category": "Python",
+            "score": 5,
+            "total_questions": 10,
+            "spent_time": 65.81666970252991
+        },
+        {
+            "timestamp": "2025-05-27 18:58:30",
+            "category": "Calculus",
+            "score": 10,
+            "total_questions": 10,
+            "spent_time": 17.61482858657837
+        }
+    ]
+}

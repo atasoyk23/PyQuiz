@@ -1,0 +1,8 @@
+Which statement is used to handle exceptions in Python?
+
+A) if-else
+B) try-except
+C) while-try
+D) error-catch
+
+Answer: B

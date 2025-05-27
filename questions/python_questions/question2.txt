@@ -1,0 +1,8 @@
+Which keyword is used to define a function in Python?
+
+A) define
+B) func
+C) def
+D) function
+
+Answer: C

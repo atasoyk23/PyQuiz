@@ -1,0 +1,8 @@
+What does the 'len()' function return?
+
+A) The last element of a list
+B) The type of an object
+C) The size of memory used
+D) The number of items in an object
+
+Answer: D

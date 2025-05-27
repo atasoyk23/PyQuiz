@@ -1,0 +1,8 @@
+What is the escape velocity from Earth approximately?
+
+A) 7.9 km/s  
+B) 9.8 m/s²  
+C) 11.2 km/s  
+D) 3.0×10⁸ m/s  
+
+Answer: C
