@@ -68,5 +68,25 @@
             "total_questions": 10,
             "spent_time": 59.06262016296387
         }
+    },
+    {
+        "username": "emre",
+        "quizzes": {
+            "timestamp": "2025-05-28 11:07:06",
+            "category": "Calculus",
+            "score": 6,
+            "total_questions": 10,
+            "spent_time": 77.7115490436554
+        }
+    },
+    {
+        "username": "emre",
+        "quizzes": {
+            "timestamp": "2025-05-28 11:07:51",
+            "category": "Calculus",
+            "score": 3,
+            "total_questions": 10,
+            "spent_time": 1.906782865524292
+        }
     }
 ]

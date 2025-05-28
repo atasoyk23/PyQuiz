@@ -1,0 +1,33 @@
+{
+    "username": "emre",
+    "quizzes": [
+        {
+            "timestamp": "2025-05-28 11:07:06",
+            "category": "Calculus",
+            "score": 6,
+            "total_questions": 10,
+            "spent_time": 77.7115490436554
+        },
+        {
+            "timestamp": "2025-05-28 11:07:51",
+            "category": "Calculus",
+            "score": 3,
+            "total_questions": 10,
+            "spent_time": 1.906782865524292
+        },
+        {
+            "timestamp": "2025-05-28 11:11:09",
+            "category": "Physics",
+            "score": 8,
+            "total_questions": 10,
+            "spent_time": 140.77672410011292
+        },
+        {
+            "timestamp": "2025-05-28 11:13:24",
+            "category": "Python",
+            "score": 7,
+            "total_questions": 10,
+            "spent_time": 73.96777415275574
+        }
+    ]
+}

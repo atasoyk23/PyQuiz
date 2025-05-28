@@ -20,6 +20,16 @@
         }
     },
     {
+        "username": "emre",
+        "quizzes": {
+            "timestamp": "2025-05-28 11:11:09",
+            "category": "Physics",
+            "score": 8,
+            "total_questions": 10,
+            "spent_time": 140.77672410011292
+        }
+    },
+    {
         "username": "help",
         "quizzes": {
             "timestamp": "2025-05-27 15:12:02",

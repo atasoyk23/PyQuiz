@@ -120,6 +120,16 @@
         }
     },
     {
+        "username": "emre",
+        "quizzes": {
+            "timestamp": "2025-05-28 11:13:24",
+            "category": "Python",
+            "score": 7,
+            "total_questions": 10,
+            "spent_time": 73.96777415275574
+        }
+    },
+    {
         "username": "kivanc",
         "quizzes": {
             "timestamp": "2025-05-27 14:27:37",
