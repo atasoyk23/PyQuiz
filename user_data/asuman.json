@@ -2,18 +2,18 @@
     "username": "asuman",
     "quizzes": [
         {
-            "timestamp": "2025-05-24 14:01:48",
-            "category": "Python",
-            "score": 10,
+            "timestamp": "2025-05-29 00:58:57",
+            "category": "Calculus",
+            "score": 9,
             "total_questions": 10,
-            "spent_time": 11.696967124938965
+            "spent_time": 19.160013675689697
         },
         {
-            "timestamp": "2025-05-24 14:04:05",
+            "timestamp": "2025-05-29 00:59:31",
             "category": "Python",
-            "score": 4,
+            "score": 2,
             "total_questions": 10,
-            "spent_time": 12.352639198303223
+            "spent_time": 7.3588409423828125
         }
     ]
 }

@@ -5,6 +5,13 @@ from datetime import datetime
 import os
 import matplotlib.pyplot as plt
 
+#Main menu function is the most important function, calls other functions and operates the application flow.
+#Gets username to log in, goes to main menu screen which asks for categories, help or just quit.
+#If help is chosen, will show the help menu until 'enter' key is pressed.
+#Break the loop if 'quit' is selected.
+#Goes to category menu if any of the categories are chosen.
+#Gets the request input from user by category menu function, and also manages those operations too.
+
 def main_menu():
     username = take_username_input()
     category = take_category_input()
@@ -43,7 +50,8 @@ def main_menu():
     return
 
     
-    
+#Category menu function takes category as input, shows category menu operation input list and expects an input to pass the operation to the main menu function.
+
 def category_menu(category):
     operation = ""
     while operation not in ("quiz", "leaderboard","back", "graph", "quit", "average"):
@@ -56,6 +64,8 @@ def category_menu(category):
                             f"  Type 'quit' to quit the app.\n").lower()
                             
     return operation
+
+#Display question reads the txt file, takes the directory as inputs, uses error handling techniques, finally returns the line with 'Answer: X' to hide it from users.
 
 def display_question(file_path):
     try:
@@ -70,10 +80,14 @@ def display_question(file_path):
         else:
             return line
     
+#File path finder function returns directory except the question number and '.txt' part.
 
 def file_path_finder(chosen_category):
     direc = f"questions/{chosen_category.lower()}_questions/question"
     return direc
+
+#Take category input function expects inputs at the main menu screen, outputs the given input, to be used in the main menu function.
+#If a invalid input is given, keeps asking for a valid input.
 
 def take_category_input():
     category = input("Welcome to main menu! Pick a category or an operation continue: \n"
@@ -100,6 +114,11 @@ def take_category_input():
         print("Showing the 'help' menu...")
         return "Help"
 
+#Quiz function works when the quiz is selected, operates the quiz process, and finally outputs the score and spent time to be saved in personal JSON files.
+#Checks for a corruption to keep quiz going.
+#Chooses random questions ranking randomly by shuffling.
+#Checks for invalid inputs, if an invalid input is given in a question, gives one more chance for answering.
+#If an invalid input is given one more time, passes that question or finishes the quiz if it is the last question.
 
 def quiz(file_path):
     correct = 0
@@ -111,7 +130,7 @@ def quiz(file_path):
         print(f"Question {j+1}: ")
         try:
             ans = display_question(file_path + f"{i}.txt")[-1]
-        except (FileNotFoundError, IndexError, TypeError):
+        except FileNotFoundError:
             print(f"Failed to load question {j+1}. Skipping to next.")
             continue
 
@@ -132,7 +151,7 @@ def quiz(file_path):
                 else:
                     print(f"Wrong! Answer was {ans}")
             else:
-                if i != 9:
+                if j != 9:
                     print(f"Invalid input again! Answer was {ans}.\n"
                           f"   Please input A or B or C or D next time!\n"
                           f"Continuing with next question.")
@@ -143,6 +162,9 @@ def quiz(file_path):
 
     print(f"You got {correct} questions correctly in {spent_time:.2f} seconds!")
     return correct, spent_time
+
+#Before the main menu, user is expected to input their username to log in, Take username input makes it possible, expecting a alphanumeric minimum 3 letters long username.
+#Directly saves the username for NEW registerations.
 
 def take_username_input():
     username = input("Please type your username:\n")
@@ -157,6 +179,11 @@ def take_username_input():
         print(f"Welcome back {username}, you've successfully logged in.")
     
     return username
+
+#Uses the outputs from take username for username, take category input for category, spent time and score from quiz functions.
+#Saves all these data in forms of intertwined dictionaries, a list holding all result dictionaries in 'quizzes' key.
+#Take username input already saved the username if no directory for that username existed, but still checks for a corruption by error handling.
+#Also saves the quiz result in a different leaderboard.JSON file for future leaderboard reqests.
 
 def save_user_result(username, category, score, spent_time, total_questions = 10):
     file_path = f"user_data/{username}.json"
@@ -203,7 +230,7 @@ def save_user_result(username, category, score, spent_time, total_questions = 10
     with open(leaderboard_path, "w", encoding="utf-8") as file:
         json.dump(leaderboard_data, file, indent= 4)
 
-
+#Loads user data for other functions to use, still checking for a corruption by error handling.
 
 def load_user_data(username):
     file_path = f"user_data/{username}.json"
@@ -217,7 +244,10 @@ def load_user_data(username):
         print(f"User data file '{file_path}' is corrupted.")
         return None
 
-    
+#Finds the best result in chosen category. After completing the quiz, this function is used for printing the all time best score for user.
+#Prints 'you broke your own record' if the all time best quiz is this quiz.
+#Sorting is made by priortizing higher score, then ranking the same score quizzes about lowest time spent.
+
 def print_best_score_in_category(username, category):
     data = load_user_data(username)
     this_quiz = data["quizzes"][-1]
@@ -244,6 +274,10 @@ def print_best_score_in_category(username, category):
         print(f"   Time: {best_quiz[0]['spent_time']:.2f} seconds")
         print(f"   Date: {best_quiz[0]['timestamp']}\n")
 
+
+#If user requests in category menu, Print leaderboard in category prints top 10 best quizzes in the category if there are at least 10 quizzes total
+#Prints top X quizzes if there are less than 10 quizzes. If the logged on user is on the leaderboard, that user can easily spot themselves thanks
+#to the bold font and extra 'Congratz' string. Also prints out how many quiz results user has in top X in total.
 
 def print_leaderboard_in_category(username, category):
     top10 = 0
@@ -276,6 +310,8 @@ def print_leaderboard_in_category(username, category):
         with open(leaderboard_path, "a", encoding="utf-8") as f:
             print(f"No leaderboard data exists in the {category} category.")
     
+#Uses matplotlib to visualize previous quiz scores and spent times on that subject of the user. 
+#Handles error and corruption.
 
 def visualizer(username, category):
     user_file_path = f"user_data/{username}.json"
@@ -322,11 +358,13 @@ def visualizer(username, category):
     plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.show()
 
+#Takes username and category as inputs, checks the users record on the given category, sums up the total scores and calculates the average stats.
+#Handles both corruption and zero division error. Outputs final message, total number of quizzes played and average score for future analysis.
 
 def average_calculator(username, category):
     user_file_path = f"user_data/{username}.json"
     if not os.path.exists(user_file_path):
-        return f"No data found for user: {username}",None,None
+        return f"No data found for user: {username}",0,0
     
     try:
         with open(user_file_path, "r", encoding="utf-8") as f:
@@ -344,7 +382,9 @@ def average_calculator(username, category):
     total_quizzes = len(scores)
     plural = (bool(total_quizzes - 1)) * "zes"
     return f"Your average score out of {total_quizzes} quiz{plural} in {category} is {avg_score:.2f}/10, your average time spent is {avg_time:.2f}.", avg_score, total_quizzes
-        
+
+#Just prints out the help menu, will go back to the main menu when enter is pressed.
+
 def help_menu(username):
     print(f"\n\033[1mWELCOME TO PYQUIZ HELP MENU {username}\033[0m")
     print("Here's a list of available commands in category menus and what they do:\n")
@@ -362,6 +402,8 @@ def help_menu(username):
     print(" = > Make sure you have a stable question set in the appropriate folder before starting a quiz.\n")
 
     input("Press any key + 'enter' to go back to the main menu.\n")
+
+#Executes the main menu to start the application.
 
 main_menu()
 

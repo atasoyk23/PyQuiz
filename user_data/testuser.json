@@ -2,39 +2,18 @@
     "username": "testuser",
     "quizzes": [
         {
-            "timestamp": "2025-05-24 14:04:41",
+            "timestamp": "2025-05-29 01:00:45",
             "category": "Python",
-            "score": 8,
+            "score": 7,
             "total_questions": 10,
-            "spent_time": 11.786319017410278
+            "spent_time": 10.052228927612305
         },
         {
-            "timestamp": "2025-05-24 14:05:38",
-            "category": "Python",
-            "score": 8,
+            "timestamp": "2025-05-29 01:01:04",
+            "category": "Calculus",
+            "score": 0,
             "total_questions": 10,
-            "spent_time": 8.290746450424194
-        },
-        {
-            "timestamp": "2025-05-24 14:06:09",
-            "category": "Python",
-            "score": 3,
-            "total_questions": 10,
-            "spent_time": 3.651444911956787
-        },
-        {
-            "timestamp": "2025-05-24 14:06:47",
-            "category": "Python",
-            "score": 10,
-            "total_questions": 10,
-            "spent_time": 8.8716299533844
-        },
-        {
-            "timestamp": "2025-05-24 14:09:36",
-            "category": "Physics",
-            "score": 8,
-            "total_questions": 10,
-            "spent_time": 42.77968740463257
+            "spent_time": 5.684573411941528
         }
     ]
 }

@@ -2,11 +2,11 @@
     "username": "ahmet",
     "quizzes": [
         {
-            "timestamp": "2025-05-24 13:27:57",
+            "timestamp": "2025-05-29 01:00:03",
             "category": "Python",
             "score": 9,
             "total_questions": 10,
-            "spent_time": 20.53152346611023
+            "spent_time": 15.78810429573059
         }
     ]
 }

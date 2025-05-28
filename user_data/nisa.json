@@ -1,4 +1,33 @@
 {
     "username": "nisa",
-    "quizzes": []
+    "quizzes": [
+        {
+            "timestamp": "2025-05-29 00:54:23",
+            "category": "Python",
+            "score": 5,
+            "total_questions": 10,
+            "spent_time": 89.0826108455658
+        },
+        {
+            "timestamp": "2025-05-29 00:54:58",
+            "category": "Python",
+            "score": 9,
+            "total_questions": 10,
+            "spent_time": 27.508985996246338
+        },
+        {
+            "timestamp": "2025-05-29 00:55:37",
+            "category": "Python",
+            "score": 10,
+            "total_questions": 10,
+            "spent_time": 21.077145099639893
+        },
+        {
+            "timestamp": "2025-05-29 00:56:22",
+            "category": "Calculus",
+            "score": 9,
+            "total_questions": 10,
+            "spent_time": 21.889475107192993
+        }
+    ]
 }

@@ -2,11 +2,25 @@
     "username": "ozum",
     "quizzes": [
         {
-            "timestamp": "2025-05-24 13:20:39",
+            "timestamp": "2025-05-29 00:56:56",
+            "category": "Python",
+            "score": 3,
+            "total_questions": 10,
+            "spent_time": 7.167115211486816
+        },
+        {
+            "timestamp": "2025-05-29 00:57:08",
             "category": "Python",
             "score": 7,
             "total_questions": 10,
-            "spent_time": 14.475072860717773
+            "spent_time": 9.59514570236206
+        },
+        {
+            "timestamp": "2025-05-29 00:58:11",
+            "category": "Calculus",
+            "score": 8,
+            "total_questions": 10,
+            "spent_time": 22.8112690448761
         }
     ]
 }
